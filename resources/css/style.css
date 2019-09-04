@@ -9,7 +9,71 @@ html {
     background-color: #fff;
     color: #555;
     font-family: 'Raleway', 'Arial', sans-serif;
-    font-size: 20px;
     font-weight: 300;
+    font-size: 20px;
     text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('https://scontent-ams4-1.xx.fbcdn.net/v/t1.0-9/67269824_380263192692728_1915942098511593472_n.jpg?_nc_cat=103&_nc_oc=AQk8RT7HBSRHEHoViwoFPmWPnI9bOEpf8Vm5IoRRVqB3p6wuu6PYm7NSINnDLDt08rA8OdgVfL557j5cKIuetksc&_nc_ht=scontent-ams4-1.xx&oh=ec3c7c043125001e56f5d0bcdf3a85cd&oe=5DD72803');
+    height: 100vh;
+    color: rgb(56, 56, 56);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 7px 0px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #fff;
 }
